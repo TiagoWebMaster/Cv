@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    line-height:1.5rem;
+    font-size: 0.7rem;
+}
+li{
+    font-size: 0.7rem;
+}
+
+
+body{
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;  
+    
+}
+
+#main-box{
+    max-width: 730px;
+    overflow: hidden;
+    background-color: #009DE0;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 3rem;
+}
+#main-box .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+#main-box .container #image .lateral a{
+    color: white;
+}
+#main-box .container #image .lateral a:hover{
+    color: #f3f3f3;
+}
+#main-box .container #image .lateral a:visited{
+    color: white;
+}
+#main-box .container .texto{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+#main-box .container .texto p{
+    text-align: justify;
+    color: white;
+    margin-left: 0.7rem;
+}
+#main-box .container .texto .education p{
+    margin-left: 0.5rem;
+    text-align: left;
+
+}
+#main-box .container .texto .education .experience {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+#main-box .container .texto .education .experience a:link{
+    color: white;
+}
+
+#main-box .container .texto .education .experience a:hover{
+    color: #f3f3f3";
+}
+#main-box .container .texto .education .experience a:visited{
+    color: white;
+}
+#main-box .container .texto ul{   
+    margin-left: 0.5rem;
+}
+#main-box .container .texto ul li{
+    list-style-type: none;
+    margin-bottom: 1rem;
+    color: white;
+}
+#main-box .container .texto h1{
+    color: white;
+    margin-bottom: 0.75rem ;
+    font-size: 1rem;
+}
+#main-box .container #image{
+    height: 100% ; 
+    padding-right: 3rem;
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    border-right: #f3f3f3 solid;
+}
+#main-box .container #image img{
+    width: 100%;
+    height: auto;
+    border-radius: 120rem;
+    margin-bottom: 1.5rem;
+}
+#main-box .container #image .lateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#main-box .container #image .lateral p:nth-child(n){
+    margin-bottom: 0.5rem;
+
+}
+#main-box .container #image .lateral p:last-child{
+    margin-bottom: 2rem;
+
+}
+#main-box .container #image .skills{
+    height: 0.75rem;
+    width: 100%;
+    background-color: #c0bdbbd2;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+.C{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    border-radius: inherit;
+
+}
+.Python{
+    height: 100%;
+    width: 85%;
+    background-color: white;
+    border-radius: inherit;
+
+}
+.Matlab{
+    height: 100%;
+    width: 60%;
+    background-color: white;
+    border-radius: inherit;
+
+}
+.Ms-office{
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    border-radius: inherit;
+
+}
+.html{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    border-radius: inherit;
+
+}
+.css{
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    border-radius: inherit;
+
+}
