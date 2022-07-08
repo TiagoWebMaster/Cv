@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 p{
-    line-height:1.5rem;
+    line-height:1rem;
     font-size: 0.7rem;
 }
 li{
@@ -42,6 +42,13 @@ body{
 #main-box .container #image .lateral a:visited{
     color: white;
 }
+#main-box .container > div:nth-child(2){
+    border-right: #f3f3f3 solid; 
+}
+#main-box .container > div:last-child{
+    margin-left: 2rem;
+}
+
 #main-box .container .texto{
     display: flex;
     flex-direction: column;
@@ -59,15 +66,18 @@ body{
 }
 #main-box .container .texto .education .experience {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-bottom: 1rem;
+}
+#main-box .container .texto .education .experience p{
+    margin-bottom: 0.25rem;
 }
 #main-box .container .texto .education .experience a:link{
     color: white;
 }
 
 #main-box .container .texto .education .experience a:hover{
-    color: #f3f3f3";
+    color: #f3f3f3;
 }
 #main-box .container .texto .education .experience a:visited{
     color: white;
@@ -87,24 +97,31 @@ body{
 }
 #main-box .container #image{
     height: 100% ; 
-    padding-right: 3rem;
     margin-right: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: center;
     color: white;
-    border-right: #f3f3f3 solid;
 }
 #main-box .container #image img{
-    width: 100%;
+    width: 60%;
     height: auto;
-    border-radius: 120rem;
+    border-radius: 180rem;
     margin-bottom: 1.5rem;
 }
+#main-box .container #image img:nth-child(2){
+    width: 67%;
+    height: auto;
+    border-radius: 0;
+    margin-bottom: 1.5rem;
+}
+
 #main-box .container #image .lateral{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 50%;
 
 }
 #main-box .container #image .lateral p:nth-child(n){
@@ -165,3 +182,4 @@ body{
     border-radius: inherit;
 
 }
+
